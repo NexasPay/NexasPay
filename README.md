@@ -22,8 +22,7 @@
 
 ## 🎥 Vídeo de Apresentação
 
-Assista ao vídeo explicativo do projeto no YouTube:  
-[▶️ Clique aqui para ver o vídeo](https://www.youtube.com/watch?v=Rh_EU3gCj6A&feature=youtu.be)
+[![Assista ao vídeo](assets/nexaspayThumb.jpg)](https://www.youtube.com/watch?v=Rh_EU3gCj6A)
 
 > [!IMPORTANT]
 > Este repositório é o **hub central** da **NexasPay**, reunindo os projetos que compõem nosso ecossistema financeiro digital.
