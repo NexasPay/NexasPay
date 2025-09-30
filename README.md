@@ -1,24 +1,81 @@
->[!IMPORTANT]
->Esse README e toda sua apresentação está em desenvolvimento. Portanto todo seu escopo e apresentação serão modificados ao longo do tempo.
+<div align="center">
+  <a href="https://github.com/NexasPay">
+    <img src="assets/logoNexaspay.png" alt="NexasPay Logo" width="350px"/>
+  </a>
+</div>
+<br>
 
-<!-- Jogar uma imagem em conjunto com algumas infos dos repositórios tipo isso aqui -> https://github.com/matheusaudibert/projeto-aprova/blob/main/README.md -->
+<p align="center">
+  <a href="https://www.figma.com/design/5DCAR8BqB7s7Jp6hkWmdLi/NexasPay---App?node-id=0-1&p=f&t=qd3o39C8JK85v9Fz-0" target="_blank">
+    <img src="https://img.shields.io/badge/protótipo-figma-%23F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Protótipo no Figma" />
+  </a>
+  <a href="https://github.com/NexasPay/app-nexaspay">
+    <img src="https://img.shields.io/badge/app-mobile-%235835CC?style=flat-square&logo=react&logoColor=white" alt="NexasPay App" />
+  </a>
+  <a href="https://github.com/NexasPay/api-nexaspay">
+    <img src="https://img.shields.io/badge/api-fastapi-%2300C7B7?style=flat-square&logo=fastapi&logoColor=white" alt="NexasPay API" />
+  </a>
+  <a href="https://github.com/NexasPay">
+    <img src="https://img.shields.io/github/stars/NexasPay?color=FFD700&logo=github&style=flat-square" alt="GitHub Stars">
+  </a>
+</p>
 
-# NexasPay
-Conheça todo os projetos que montam a NexasPay a partir dos repositórios no GITHUB dessa organização. 
+## 🎥 Vídeo de Apresentação
+
+Assista ao vídeo explicativo do projeto no YouTube:  
+[▶️ Clique aqui para ver o vídeo](https://www.youtube.com/watch?v=Rh_EU3gCj6A&feature=youtu.be)
+
+> [!IMPORTANT]
+> Este repositório é o **hub central** da **NexasPay**, reunindo os projetos que compõem nosso ecossistema financeiro digital.
+
+# 💳 NexasPay
 
 
-## NexasPay - APP
-<!-- Descrição e GIF de execução do projeto abaixo -->
-
-### Acesse o repositório
-Aplicativo em React-Native: [nexaspay-app](https://github.com/NexasPay/app-nexaspay)
 
 
-## NexasPay - API
-<!-- Descrição e GIF de execução do projeto abaixo -->
-### API desenvolvida em Python + FastAPI com AWS e Docker
-Acesse aqui: [nexaspay-api](https://github.com/NexasPay/api-nexaspay)
+A **NexasPay** é uma plataforma de **pagamentos digitais inteligente, segura e escalável**, criada para oferecer **experiência simplificada** tanto para usuários quanto para negócios.  
+Com foco em **inovação e tecnologia**, a solução combina **app mobile, API robusta e infraestrutura em nuvem**.
 
+![Preview](assets/preview.png)
 
 ---
+
+## 🌍 Projetos
+
+A NexasPay é formada por diferentes repositórios dentro desta organização:
+
+| **Projeto** | **Descrição** | **Repositório** |
+|-------------|---------------|-----------------|
+| 📱 **App NexasPay** | Aplicativo mobile desenvolvido em **React Native**, interface simples e intuitiva para transferências, pagamentos e gerenciamento de carteira digital. | [nexaspay-app](https://github.com/NexasPay/app-nexaspay) |
+| ⚡ **API NexasPay** | Backend em **Python + FastAPI**, com suporte a **AWS**, **Docker** e banco relacional, garantindo performance, segurança e escalabilidade. | [nexaspay-api](https://github.com/NexasPay/api-nexaspay) |
+
+---
+
+
+## 🔧 Funcionalidades
+
+- Envio e recebimento de dinheiro em tempo real (simulação estilo Pix).
+- Carteira digital com **saldo atualizado** e **histórico de transações**.
+- API com autenticação JWT e suporte a **AWS Cognito**.
+- Containers Docker para fácil deploy.
+- Estrutura pronta para **escalabilidade em nuvem (AWS ECS/EKS)**.
+- Futuro: integração com **Blockchain e IA/ML antifraude**.
+
+---
+
+## 💻 Tecnologias Utilizadas
+
+- **Frontend (App)**: React Native + Expo  
+- **Backend (API)**: Python + FastAPI  
+- **Banco de Dados**: PostgreSQL (AWS RDS)  
+- **Infraestrutura**: Docker, AWS ECS/EKS, CloudWatch  
+- **Autenticação**: AWS Cognito  
+- **Mensageria**: AWS SQS/SNS  
+- **CI/CD**: GitHub Actions  
+
+---
+
 ## Licença X
+
+
+
