@@ -58,6 +58,17 @@ Esse backend integra autenticação (**AWS Cognito**), banco de dados (**RDS**),
 
 ![Arquitetura](./assets/qi-tech.drawio.png)
 
+---
+
+## 🏦 Modelo do Banco de Dados
+
+A estrutura do banco de dados foi projetada para ser relacional e escalável, suportando as principais entidades do nosso sistema de carteira digital. O diagrama abaixo representa as tabelas e seus relacionamentos.
+
+
+<img width="1219" height="770" alt="banco" src="https://github.com/user-attachments/assets/f405b57c-3b04-4424-8be1-443d059f2c8e" />
+
+---
+
 ## 🔧 Funcionalidades
 
 - Envio e recebimento de dinheiro em tempo real (simulação estilo Pix).
