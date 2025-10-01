@@ -35,7 +35,7 @@
 A **NexasPay** é uma plataforma de **pagamentos digitais inteligente, segura e escalável**, criada para oferecer **experiência simplificada** tanto para usuários quanto para negócios.  
 Com foco em **inovação e tecnologia**, a solução combina **app mobile, API robusta e infraestrutura em nuvem**.
 
-![Preview](assets/preview.png)
+![Preview](assets/telas.jpg)
 
 [➡️ Clique aqui para acessar o protótipo no Figma](https://www.figma.com/proto/5DCAR8BqB7s7Jp6hkWmdLi/NexasPay---App?node-id=0-1&p=f&t=FKQu3fCfLblTXu8D-0)
 
