@@ -50,6 +50,13 @@ A NexasPay é formada por diferentes repositórios dentro desta organização:
 
 ---
 
+## 🏗️ Arquitetura do Sistema
+
+Abaixo está o diagrama da arquitetura da **Carteira Digital Inteligente**.  
+O fluxo mostra como o **usuário** acessa o **app React Native**, que se conecta ao **backend FastAPI**.  
+Esse backend integra autenticação (**AWS Cognito**), banco de dados (**RDS**), cache (**ElastiCache**), mensageria (**SQS/SNS**), além de módulos de **IA/ML** (fraude + score), **Blockchain** (hashes e smart contracts) e **monitoramento com CloudWatch**, tudo empacotado em **Docker** para fácil deploy na AWS.  
+
+![Arquitetura](./assets/qi-tech.drawio.png)
 
 ## 🔧 Funcionalidades
 
