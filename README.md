@@ -37,6 +37,9 @@ Com foco em **inovação e tecnologia**, a solução combina **app mobile, API r
 
 ![Preview](assets/preview.png)
 
+[➡️ Clique aqui para acessar o protótipo no Figma](https://www.figma.com/proto/5DCAR8BqB7s7Jp6hkWmdLi/NexasPay---App?node-id=0-1&p=f&t=FKQu3fCfLblTXu8D-0)
+
+
 ---
 
 ## 🌍 Projetos
