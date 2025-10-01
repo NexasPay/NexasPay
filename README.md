@@ -82,7 +82,9 @@ Esse backend integra autenticação (**AWS Cognito**), banco de dados (**RDS**),
 
 ---
 
-## Licença X
+## Licença
+
+Este projeto está licenciado sob os termos da licença [Apache 2.0](LICENSE).
 
 
 
