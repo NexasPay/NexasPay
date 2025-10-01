@@ -59,6 +59,7 @@ A NexasPay é formada por diferentes repositórios dentro desta organização:
 - Containers Docker para fácil deploy.
 - Estrutura pronta para **escalabilidade em nuvem (AWS ECS/EKS)**.
 - Futuro: integração com **Blockchain e IA/ML antifraude**.
+- NexasScore: **indicador(pontos) de confiança** que mostra se o destinatário é confiável antes de você enviar o dinheiro.
 
 ---
 
