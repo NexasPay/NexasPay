@@ -29,9 +29,6 @@
 
 # 💳 NexasPay
 
-
-
-
 A **NexasPay** é uma plataforma de **pagamentos digitais inteligente, segura e escalável**, criada para oferecer **experiência simplificada** tanto para usuários quanto para negócios.  
 Com foco em **inovação e tecnologia**, a solução combina **app mobile, API robusta e infraestrutura em nuvem**.
 
@@ -39,6 +36,19 @@ Com foco em **inovação e tecnologia**, a solução combina **app mobile, API r
 
 [➡️ Clique aqui para acessar o protótipo no Figma](https://www.figma.com/proto/5DCAR8BqB7s7Jp6hkWmdLi/NexasPay---App?node-id=0-1&p=f&t=FKQu3fCfLblTXu8D-0)
 
+---
+
+## 🚀 Entrega do MVP
+
+A equipe **NexasPay** concluiu e entregou o **MVP funcional** (Produto Mínimo Viável) do ecossistema, composto por:
+
+- Aplicativo Mobile em **React Native + Expo**  
+- Backend em **FastAPI (Python)**  
+- Banco de dados relacional **PostgreSQL**  
+- Containerização com **Docker**
+
+> ⚠️ Por questões de **prazo e escopo**, os módulos de **Machine Learning (IA/antifraude)**, **integrações AWS (Cognito, ECS, SQS/SNS)** e **Blockchain (hashes e smart contracts)** **não foram incluídos nesta versão** do MVP.  
+> Eles estão planejados para as **fases seguintes de evolução do produto**, conforme o roadmap técnico do projeto.
 
 ---
 
@@ -67,20 +77,18 @@ Esse backend integra autenticação (**AWS Cognito**), banco de dados (**RDS**),
 
 A estrutura do banco de dados foi projetada para ser relacional e escalável, suportando as principais entidades do nosso sistema de carteira digital. O diagrama abaixo representa as tabelas e seus relacionamentos.
 
-
 <img width="1219" height="770" alt="banco" src="https://github.com/user-attachments/assets/f405b57c-3b04-4424-8be1-443d059f2c8e" />
 
 ---
 
-## 🔧 Funcionalidades
+## 🔧 Funcionalidades do MVP
 
-- Envio e recebimento de dinheiro em tempo real (simulação estilo Pix).
-- Carteira digital com **saldo atualizado** e **histórico de transações**.
-- API com autenticação JWT e suporte a **AWS Cognito**.
-- Containers Docker para fácil deploy.
-- Estrutura pronta para **escalabilidade em nuvem (AWS ECS/EKS)**.
-- Futuro: integração com **Blockchain e IA/ML antifraude**.
-- NexasScore: **indicador(pontos) de confiança** que mostra se o destinatário é confiável antes de você enviar o dinheiro.
+- Envio e recebimento de dinheiro em tempo real (simulação estilo Pix).  
+- Carteira digital com **saldo atualizado** e **histórico de transações**.  
+- API com autenticação JWT.  
+- Containers Docker para fácil deploy.  
+- Estrutura escalável pronta para integração futura com **AWS** e **serviços de IA/Blockchain**.  
+- **NexasScore:** indicador de confiança que mostra se o destinatário é confiável antes da transação.
 
 ---
 
@@ -89,16 +97,31 @@ A estrutura do banco de dados foi projetada para ser relacional e escalável, su
 - **Frontend (App)**: React Native + Expo  
 - **Backend (API)**: Python + FastAPI  
 - **Banco de Dados**: PostgreSQL (AWS RDS)  
-- **Infraestrutura**: Docker, AWS ECS/EKS, CloudWatch  
-- **Autenticação**: AWS Cognito  
-- **Mensageria**: AWS SQS/SNS  
-- **CI/CD**: GitHub Actions  
+- **Infraestrutura**: Docker  
+- **Autenticação (Planejada)**: AWS Cognito  
+- **Mensageria (Planejada)**: AWS SQS/SNS  
+- **Machine Learning (Planejado)**: Modelos de score e antifraude  
+- **Blockchain (Planejado)**: Registro de transações e contratos inteligentes  
 
 ---
 
-## Licença
+## 📈 Roadmap Técnico
+
+| Fase | Foco | Tecnologias |
+|------|------|-------------|
+| **1. MVP** | App + API + DB + Docker | React Native, FastAPI, PostgreSQL |
+| **2. Cloud & Segurança** | Infra AWS, autenticação e CI/CD | Cognito, ECS, CloudWatch |
+| **3. Inteligência Financeira** | Machine Learning antifraude e score | TensorFlow / Scikit-learn |
+| **4. Transparência e Confiança** | Blockchain para registro de operações | Solidity / Web3 |
+
+---
+
+## 📜 Licença
 
 Este projeto está licenciado sob os termos da licença [Apache 2.0](LICENSE).
 
+---
 
-
+<p align="center">
+  Feito com 💙 pela equipe <strong>NexasPay</strong> — inovação em pagamentos digitais.
+</p>
